@@ -34,3 +34,9 @@ grant_type=password
 &password={{PASSWORD}}
 &client_id={{CLIENT_ID}}
 &totp={{OTP}}
+
+###
+GET http://localhost:8080/actuator/health
+
+###
+GET http://localhost:8080/actuator
